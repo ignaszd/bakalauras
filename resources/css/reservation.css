@@ -1,0 +1,131 @@
+.container-fluid-reservation {
+    padding-top: 40px !important;
+    padding-bottom: 20px !important
+}
+
+.card {
+    box-shadow: 0 0 5px black
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+.datepicker {
+    background-color: #C0C0C0 !important;
+    color: #fff !important;
+    border: none;
+    padding: 10px !important
+}
+
+.dow,
+.old-day,
+.day,
+.new-day {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 0px !important
+}
+
+.old-day:hover,
+.day:hover,
+.new-day:hover,
+.month:hover,
+.year:hover,
+.decade:hover,
+.century:hover {
+    border-radius: 6px !important;
+    background-color: #eee;
+    color: #000;
+}
+
+.active {
+    border-radius: 6px !important;
+    background-image: linear-gradient(#90CAF9, #64B5F6) !important;
+    color: #000 !important
+}
+
+.disabled {
+    color: #616161 !important
+}
+
+.prev,
+.next,
+.datepicker-switch {
+    border-radius: 0 !important;
+    padding: 20px 10px !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff !important;
+    opacity: 0.8
+}
+
+.prev:hover,
+.next:hover,
+.datepicker-switch:hover {
+    background-color: inherit !important;
+    opacity: 1
+}
+
+.cell {
+    border: 1px solid #BDBDBD;
+    margin: 2px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.cell.test1{
+    pointer-events: none;
+    border-radius: 25px;
+    background: #FF5C38;
+}
+
+.form-control-label {
+    margin-bottom: 0
+}
+
+
+input,
+textarea,
+select,
+button {
+    padding: 8px 15px;
+    border-radius: 5px !important;
+    margin: 5px 0px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    font-size: 18px !important;
+    font-weight: 300
+}
+
+input:focus,
+textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+    font-weight: 400
+}
+
+.btn-block {
+    text-transform: uppercase;
+    font-size: 15px !important;
+    font-weight: 400;
+    height: 43px;
+    cursor: pointer
+}
+
+.btn-block:hover {
+    color: #fff !important
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0
+}
+
+.confirm:hover{
+    border-color: black;
+}

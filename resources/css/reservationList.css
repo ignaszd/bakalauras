@@ -1,0 +1,80 @@
+.card {
+    box-shadow: 0px 4px 8px 0px #7986CB
+}
+
+::placeholder {
+    color: #fff;
+    opacity: 1
+}
+
+.datepicker {
+    border-radius: 25px;
+    background-color: #C0C0C0 !important;
+    color: #fff !important;
+    border: none;
+    padding: 10px !important
+}
+
+.dow,
+.old-day,
+.day,
+.new-day {
+    width: 40px !important;
+    height: 40px !important;
+    border-radius: 0px !important
+}
+
+.old-day:hover,
+.day:hover,
+.new-day:hover,
+.month:hover,
+.year:hover,
+.decade:hover,
+.century:hover {
+    border-radius: 6px !important;
+    background-color: #eee;
+    color: #000;
+}
+
+.active {
+    border-radius: 6px !important;
+    background-image: linear-gradient(#90CAF9, #64B5F6) !important;
+    color: #000 !important
+}
+
+.disabled {
+    color: #616161 !important
+}
+
+.prev,
+.next,
+.datepicker-switch {
+    border-radius: 0 !important;
+    padding: 20px 10px !important;
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #fff !important;
+    opacity: 0.8
+}
+
+.prev:hover,
+.next:hover,
+.datepicker-switch:hover {
+    background-color: inherit !important;
+    opacity: 1
+}
+
+.cell {
+    border: 1px solid #BDBDBD;
+    margin: 2px;
+    cursor: pointer;
+}
+.cell.test1{
+    pointer-events: none;
+    background: #8B0000;
+}
+
+.cell:hover {
+    border: 1px solid #3D5AFE
+}
+

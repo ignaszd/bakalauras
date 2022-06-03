@@ -1,0 +1,9 @@
+.dz-filename{
+    display: none;
+}
+.dz-progress{
+    display: none;
+}
+.dropzone .dz-preview .dz-error-message{
+    top: 50px;
+}
